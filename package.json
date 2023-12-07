@@ -2,7 +2,11 @@
   "name": "randomcat",
   "version": "1.0.0",
   "description": "",
+  "type" : "module",
   "main": "randomcat.js",
+  "exports" : {
+    "." : "./randomcat.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
